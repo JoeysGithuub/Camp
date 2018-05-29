@@ -93,26 +93,26 @@ let jack = document.createElement('article');
 jack.setAttribute('id', 'District5'); 
 document.body.append(jack)
 
-let scott = document.createTextNode(district.congressionalDistrict)
-document.body.appendChild(jack)
-console.log(scott)
+
+let bill = document.createTextNode(district.congressionalDistrict)
+jack.appendChild(bill)
+
 
 let mike = document.createTextNode(district.taxes)
-document.body.appendChild(jack)
-console.log(mike)
+jack.appendChild(mike)
+
 
 let jim = document.createTextNode(district.jobs)
-document.body.appendChild(jack)
+jack.appendChild(jim)
 console.log(jim)
 
 let milton = document.createTextNode(district.infrastructure)
-document.body.appendChild(jack)
-console.log(milton)
+jack.appendChild(milton)
+
 
 let bob = document.createTextNode(district.healthCare)
-document.body.appendChild(jack)
-console.log(bob)
+jack.appendChild(bob)
+
 
 let crab = document.createTextNode(district.crime)
-document.body.appendChild(jack)
-console.log(crab)
+jack.appendChild(crab)
